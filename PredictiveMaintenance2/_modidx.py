@@ -6,4 +6,8 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/lalithapavani-b/PredictiveMaintenance2',
                 'lib_path': 'PredictiveMaintenance2'},
   'syms': { 'PredictiveMaintenance2.core': { 'PredictiveMaintenance2.core.foo': ('core.html#foo', 'PredictiveMaintenance2/core.py'),
-                                             'PredictiveMaintenance2.core.greet': ('core.html#greet', 'PredictiveMaintenance2/core.py')}}}
+                                             'PredictiveMaintenance2.core.greet': ('core.html#greet', 'PredictiveMaintenance2/core.py')},
+            'PredictiveMaintenance2.utils': { 'PredictiveMaintenance2.utils.foo': ( 'introduction.html#foo',
+                                                                                    'PredictiveMaintenance2/utils.py'),
+                                              'PredictiveMaintenance2.utils.greet': ( 'introduction.html#greet',
+                                                                                      'PredictiveMaintenance2/utils.py')}}}
