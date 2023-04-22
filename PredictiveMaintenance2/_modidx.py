@@ -8,6 +8,4 @@ d = { 'settings': { 'branch': 'main',
   'syms': { 'PredictiveMaintenance2.core': { 'PredictiveMaintenance2.core.foo': ('core.html#foo', 'PredictiveMaintenance2/core.py'),
                                              'PredictiveMaintenance2.core.greet': ('core.html#greet', 'PredictiveMaintenance2/core.py')},
             'PredictiveMaintenance2.utils': { 'PredictiveMaintenance2.utils.foo': ( 'introduction.html#foo',
-                                                                                    'PredictiveMaintenance2/utils.py'),
-                                              'PredictiveMaintenance2.utils.greet': ( 'introduction.html#greet',
-                                                                                      'PredictiveMaintenance2/utils.py')}}}
+                                                                                    'PredictiveMaintenance2/utils.py')}}}
