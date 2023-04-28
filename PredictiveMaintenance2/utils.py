@@ -7,7 +7,7 @@ __all__ = ['data', 'foo']
 import pandas as pd
 
 # %% ../nbs/00_Introduction.ipynb 9
-data = pd.read_csv(r'..\predictive_maintenance_dataset.csv')
+data = pd.read_csv('predictive_maintenance_dataset.csv')
 data.head()
 
 # %% ../nbs/00_Introduction.ipynb 10
