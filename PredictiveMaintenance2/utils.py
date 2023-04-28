@@ -9,7 +9,6 @@ import pandas as pd
 # %% ../nbs/00_Introduction.ipynb 9
 data = pd.read_csv(r'C:\Users\Lalitha\Desktop\GyanData\predictive-maintenance\PredictiveMaintenance2\predictive_maintenance_dataset.csv')
 data.head()
-data.info()
 
 # %% ../nbs/00_Introduction.ipynb 10
 def foo(): pass
