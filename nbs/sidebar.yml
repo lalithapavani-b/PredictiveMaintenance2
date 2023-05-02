@@ -2,4 +2,12 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - 00_Introduction.ipynb
+      - 00_End-to-End-notebook.ipynb
+      - 01_Datasets.ipynb
+      - 02_Preprocessing.ipynb
+      - 03_FeaturesEng.ipynb
+      - 04_Visualize.ipynb
+      - 05_Model.ipynb
+      - 06_Evaluation.ipynb
+      - 07_Deploy.ipynb
+      - 08_Monitoring.ipynb
