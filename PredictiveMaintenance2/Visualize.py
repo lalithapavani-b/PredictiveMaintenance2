@@ -13,7 +13,7 @@ import PredictiveMaintenance2.Datasets as Datasets
 # %% ../nbs/04_Visualize.ipynb 6
 def plot(feature_type: str , # whether feature is numerical or categorical
          feature : str , # name of feature
-         dataset : pd.DataFrame , # name of dataset
+         dataset : pd.DataFrame , # dataframe of dataset
          boxplot : bool = True , # whether draw box plot or not 
          histogram : bool= True , # whether draw histogram or not
          barchart : bool= True , # whether to draw bar chart or not     

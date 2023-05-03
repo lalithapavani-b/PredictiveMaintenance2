@@ -5,7 +5,7 @@ website:
       - 00_End-to-End-notebook.ipynb
       - 01_Datasets.ipynb
       - 02_Preprocessing.ipynb
-      - 03_FeaturesEng.ipynb
+      - 03_FeatureEng.ipynb
       - 04_Visualize.ipynb
       - 05_Model.ipynb
       - 06_Evaluation.ipynb
