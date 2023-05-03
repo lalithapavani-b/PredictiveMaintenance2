@@ -74,7 +74,7 @@ def explore_dataset(dataset_df : pd.DataFrame,# DataFrame handler of the dataset
         
         # if null values found in dataset perform NAN_action specified 
         if duplicate_values:
-            if NAN_action =='drop': 
+            if duplicate_action =='drop': 
                 dataset_df.drop_duplicates(subset= duplicate_subset, inplace=inplace)
                 print(f"{NAN_action} Duplicates successful \n")
                 

@@ -30,7 +30,7 @@ def explain_features(dataset_df : pd.DataFrame, # Pandas DataFrame object of dat
             print(f" First 5 unique dates are \n{(unique_observation_dates.index)[:5]}\n")
             
             
-        # machine features
+        # machine features = meta_features
         if machine_features:
             # counter for each machine feature[category,count]
             # visualize as categorical variable [Visualize module]
