@@ -5,24 +5,40 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://lalithapavani-b.github.io',
                 'git_url': 'https://github.com/lalithapavani-b/PredictiveMaintenance2',
                 'lib_path': 'PredictiveMaintenance2'},
-  'syms': { 'PredictiveMaintenance2.Datasets': { 'PredictiveMaintenance2.Datasets.explore_dataset': ( 'datasets.html#explore_dataset',
+  'syms': { 'PredictiveMaintenance2.Datasets': { 'PredictiveMaintenance2.Datasets.explore_dataset': ( 'Library '
+                                                                                                      'Notebooks/datasets.html#explore_dataset',
                                                                                                       'PredictiveMaintenance2/Datasets.py'),
-                                                 'PredictiveMaintenance2.Datasets.load_dataset': ( 'datasets.html#load_dataset',
+                                                 'PredictiveMaintenance2.Datasets.load_dataset': ( 'Library '
+                                                                                                   'Notebooks/datasets.html#load_dataset',
                                                                                                    'PredictiveMaintenance2/Datasets.py')},
-            'PredictiveMaintenance2.FeatureEng': { 'PredictiveMaintenance2.FeatureEng.calculate_rul': ( 'featureeng.html#calculate_rul',
+            'PredictiveMaintenance2.FeatureEng': { 'PredictiveMaintenance2.FeatureEng.calculate_rul': ( 'Library '
+                                                                                                        'Notebooks/featureeng.html#calculate_rul',
                                                                                                         'PredictiveMaintenance2/FeatureEng.py'),
-                                                   'PredictiveMaintenance2.FeatureEng.expand_target_window': ( 'featureeng.html#expand_target_window',
+                                                   'PredictiveMaintenance2.FeatureEng.calculate_survival_time': ( 'Library '
+                                                                                                                  'Notebooks/featureeng.html#calculate_survival_time',
+                                                                                                                  'PredictiveMaintenance2/FeatureEng.py'),
+                                                   'PredictiveMaintenance2.FeatureEng.expand_target_window': ( 'Library '
+                                                                                                               'Notebooks/featureeng.html#expand_target_window',
                                                                                                                'PredictiveMaintenance2/FeatureEng.py'),
-                                                   'PredictiveMaintenance2.FeatureEng.explain_features': ( 'featureeng.html#explain_features',
+                                                   'PredictiveMaintenance2.FeatureEng.explain_features': ( 'Library '
+                                                                                                           'Notebooks/featureeng.html#explain_features',
                                                                                                            'PredictiveMaintenance2/FeatureEng.py'),
-                                                   'PredictiveMaintenance2.FeatureEng.to_numerical': ( 'featureeng.html#to_numerical',
+                                                   'PredictiveMaintenance2.FeatureEng.remove_invalid_records': ( 'Library '
+                                                                                                                 'Notebooks/featureeng.html#remove_invalid_records',
+                                                                                                                 'PredictiveMaintenance2/FeatureEng.py'),
+                                                   'PredictiveMaintenance2.FeatureEng.to_numerical': ( 'Library '
+                                                                                                       'Notebooks/featureeng.html#to_numerical',
                                                                                                        'PredictiveMaintenance2/FeatureEng.py')},
-            'PredictiveMaintenance2.Model': { 'PredictiveMaintenance2.Model.build_test_train': ( 'model.html#build_test_train',
+            'PredictiveMaintenance2.Model': { 'PredictiveMaintenance2.Model.build_test_train': ( 'Library '
+                                                                                                 'Notebooks/model.html#build_test_train',
                                                                                                  'PredictiveMaintenance2/Model.py'),
-                                              'PredictiveMaintenance2.Model.train_test_split': ( 'model.html#train_test_split',
+                                              'PredictiveMaintenance2.Model.train_test_split': ( 'Library '
+                                                                                                 'Notebooks/model.html#train_test_split',
                                                                                                  'PredictiveMaintenance2/Model.py')},
-            'PredictiveMaintenance2.Visualize': { 'PredictiveMaintenance2.Visualize.plot': ( 'visualize.html#plot',
+            'PredictiveMaintenance2.Visualize': { 'PredictiveMaintenance2.Visualize.plot': ( 'Library Notebooks/visualize.html#plot',
                                                                                              'PredictiveMaintenance2/Visualize.py')},
             'PredictiveMaintenance2.core': { 'PredictiveMaintenance2.core.foo': ('core.html#foo', 'PredictiveMaintenance2/core.py'),
                                              'PredictiveMaintenance2.core.greet': ('core.html#greet', 'PredictiveMaintenance2/core.py')},
+            'PredictiveMaintenance2.eda': {},
+            'PredictiveMaintenance2.modeBG': {},
             'PredictiveMaintenance2.utils': {}}}

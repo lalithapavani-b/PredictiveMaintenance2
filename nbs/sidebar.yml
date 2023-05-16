@@ -2,12 +2,16 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - 00_End-to-End-notebook.ipynb
-      - 01_Datasets.ipynb
-      - 02_Preprocessing.ipynb
-      - 03_FeatureEng.ipynb
-      - 04_Visualize.ipynb
-      - 05_Model.ipynb
-      - 06_Evaluation.ipynb
-      - 07_Deploy.ipynb
-      - 08_Monitoring.ipynb
+      - 00_Understand_Dataset.ipynb
+      - 01_Objective1_Predict_RUL.ipynb
+      - 02_Objective2_Probability of failure in Next N days.ipynb
+      - section: Library Notebooks
+        contents:
+          - Library Notebooks\01_Datasets.ipynb
+          - Library Notebooks\02_FeatureEng.ipynb
+          - Library Notebooks\03_Visualize.ipynb
+          - Library Notebooks\04_Model.ipynb
+      - section: Rough Notebooks
+        contents:
+          - Rough Notebooks\00_End-End.ipynb
+          - Rough Notebooks\00_Modeling_Background.ipynb
