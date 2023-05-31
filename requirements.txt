@@ -1,6 +1,7 @@
 Boruta==0.3
 matplotlib==3.7.1
-numpy==1.21.4
+numpy==1.21.6
+pandas==1.5.3
 pandas==2.0.1
 scikit_learn==1.2.2
 scikit_survival==0.20.0

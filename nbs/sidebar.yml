@@ -3,6 +3,7 @@ website:
     contents:
       - index.ipynb
       - 00_Understand_Dataset.ipynb
+      - 01_Objective1_Predict_RUL-Copy1.ipynb
       - 01_Objective1_Predict_RUL.ipynb
       - 02_Objective2_Probability of failure in Next N days.ipynb
       - section: Library Notebooks
@@ -11,7 +12,3 @@ website:
           - Library Notebooks\02_FeatureEng.ipynb
           - Library Notebooks\03_Visualize.ipynb
           - Library Notebooks\04_Model.ipynb
-      - section: Rough Notebooks
-        contents:
-          - Rough Notebooks\00_End-End.ipynb
-          - Rough Notebooks\00_Modeling_Background.ipynb

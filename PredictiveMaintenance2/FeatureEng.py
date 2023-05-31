@@ -26,6 +26,7 @@ def explain_features(dataset_df : pd.DataFrame, # Pandas DataFrame object of dat
         
         # observation_date
         if observation_date:
+            dataset_df[observation_date] = pd.to_datetime(dataset_df[observation_date])
             unique_observation_dates = pd.DataFrame(dataset_df.groupby([observation_date]).agg(['count']))
             print(f"Observations are recorded for {(unique_observation_dates.shape)[0]} days\n")
             print(f" First 5 unique dates are \n{(unique_observation_dates.index)[:5]}\n")
@@ -95,10 +96,10 @@ def remove_invalid_records(dataset_df : pd.DataFrame, # Pandas DataFrame object 
                     machine_Unique_Identifer :str = None, # a unique ID to identify machine
                     observation_date : str = None, # date when observation is recorded
                     failure : str = None, # event of failute . In most cases failure = 0 means not failed yet, failure=1 means equipment is failed
-                    ):
+                    )->pd.DataFrame: #dataframe after removing invalid records
     try :
         # format observation_date field if it comes in as string
-        dataset_df[observation_date] = pd.to_datetime(dataset_df[observation_date],format = 'mixed')
+        dataset_df[observation_date] = pd.to_datetime(dataset_df[observation_date])
 
         # last date of entire experiement
         last_date = dataset_df[observation_date].max()
